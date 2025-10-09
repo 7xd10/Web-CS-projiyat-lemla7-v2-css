@@ -1,0 +1,76 @@
+/* Réinitialisation de base */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+/* En-tête avec barre de navigation */
+header table {
+    background-color: #004080;
+    color: white;
+    border-collapse: collapse;
+}
+
+header td {
+    padding: 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+header td:hover {
+    background-color: #0066cc;
+    cursor: pointer;
+}
+
+/* Table des images et noms */
+div table {
+    margin: auto;
+    border-spacing: 20px;
+}
+
+div img {
+    border-radius: 8px;
+    border: 2px solid #ccc;
+    transition: transform 0.3s ease;
+}
+
+div img:hover {
+    transform: scale(1.1);
+    border-color: #0077cc;
+}
+
+/* Liens sous les images */
+div p {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+div a {
+    text-decoration: none;
+    color: #004080;
+    transition: color 0.2s ease;
+}
+
+div a:hover {
+    color: #0077cc;
+}
+
+/* Bouton "Voir plus" */
+form button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #004080;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+form button:hover {
+    background-color: #0066cc;
+}
